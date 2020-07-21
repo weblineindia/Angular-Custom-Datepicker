@@ -1,7 +1,6 @@
 import { Moment } from 'moment';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { ITimeSelectConfig, ITimeSelectConfigInternal } from './time-select-config.model';
-import * as ɵngcc0 from '@angular/core';
 export declare type TimeUnit = 'hour' | 'minute' | 'second';
 export declare const FIRST_PM_HOUR = 12;
 export declare class TimeSelectService {
@@ -20,8 +19,4 @@ export declare class TimeSelectService {
     shouldShowDecrease(config: ITimeSelectConfigInternal, time: Moment, unit: TimeUnit): boolean;
     shouldShowIncrease(config: ITimeSelectConfigInternal, time: Moment, unit: TimeUnit): boolean;
     shouldShowToggleMeridiem(config: ITimeSelectConfigInternal, time: Moment): boolean;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<TimeSelectService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<TimeSelectService>;
 }
-
-//# sourceMappingURL=time-select.service.d.ts.map

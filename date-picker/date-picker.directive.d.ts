@@ -8,7 +8,6 @@ import { NgControl } from '@angular/forms';
 import { CalendarValue, ISelectionEvent, SingleCalendarValue } from '..';
 import { INavEvent } from '../common/models/navigation-event.model';
 import { UtilsService } from '../common/services/utils/utils.service';
-import * as ɵngcc0 from '@angular/core';
 export declare class DatePickerDirective implements OnInit {
     viewContainerRef: ViewContainerRef;
     elemRef: ElementRef;
@@ -61,8 +60,4 @@ export declare class DatePickerDirective implements OnInit {
     onEnter(): void;
     markForCheck(): void;
     private updateDatepickerConfig;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DatePickerDirective, [null, null, null, null, { optional: true; }, null]>;
-    static ɵdir: ɵngcc0.ɵɵDirectiveDefWithMeta<DatePickerDirective, "[dpDayPicker]", ["dpDayPicker"], { "config": "dpDayPicker"; "attachTo": "attachTo"; "theme": "theme"; "mode": "mode"; "minDate": "minDate"; "maxDate": "maxDate"; "minTime": "minTime"; "maxTime": "maxTime"; "displayDate": "displayDate"; }, { "open": "open"; "close": "close"; "onChange": "onChange"; "onGoToCurrent": "onGoToCurrent"; "onLeftNav": "onLeftNav"; "onRightNav": "onRightNav"; "onSelect": "onSelect"; }, never>;
 }
-
-//# sourceMappingURL=date-picker.directive.d.ts.map

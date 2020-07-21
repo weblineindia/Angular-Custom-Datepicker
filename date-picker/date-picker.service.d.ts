@@ -7,7 +7,6 @@ import { TimeSelectService } from '../time-select/time-select.service';
 import { DayTimeCalendarService } from '../day-time-calendar/day-time-calendar.service';
 import { ITimeSelectConfig } from '../time-select/time-select-config.model';
 import { CalendarMode } from '../common/types/calendar-mode';
-import * as ɵngcc0 from '@angular/core';
 export declare class DatePickerService {
     private utilsService;
     private timeSelectService;
@@ -23,8 +22,4 @@ export declare class DatePickerService {
     isValidInputDateValue(value: string, config: IDatePickerConfig): boolean;
     convertInputValueToMomentArray(value: string, config: IDatePickerConfig): Moment[];
     private getDefaultFormatByMode;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DatePickerService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<DatePickerService>;
 }
-
-//# sourceMappingURL=date-picker.service.d.ts.map

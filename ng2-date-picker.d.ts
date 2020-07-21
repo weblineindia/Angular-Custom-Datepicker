@@ -11,5 +11,3 @@ export { DayCalendarService as ɵe } from './day-calendar/day-calendar.service';
 export { DayTimeCalendarService as ɵd } from './day-time-calendar/day-time-calendar.service';
 export { MonthCalendarService as ɵh } from './month-calendar/month-calendar.service';
 export { TimeSelectService as ɵc } from './time-select/time-select.service';
-
-//# sourceMappingURL=ng2-date-picker.d.ts.map

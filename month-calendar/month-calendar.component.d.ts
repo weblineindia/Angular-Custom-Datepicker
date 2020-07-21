@@ -10,7 +10,6 @@ import { UtilsService } from '../common/services/utils/utils.service';
 import { DateValidator } from '../common/types/validator.type';
 import { SingleCalendarValue } from '../common/types/single-calendar-value';
 import { INavEvent } from '../common/models/navigation-event.model';
-import * as ɵngcc0 from '@angular/core';
 export declare class MonthCalendarComponent implements OnInit, OnChanges, ControlValueAccessor, Validator {
     readonly monthCalendarService: MonthCalendarService;
     readonly utilsService: UtilsService;
@@ -73,8 +72,4 @@ export declare class MonthCalendarComponent implements OnInit, OnChanges, Contro
     goToCurrent(): void;
     moveCalendarTo(to: SingleCalendarValue): void;
     handleConfigChange(config: SimpleChange): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<MonthCalendarComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<MonthCalendarComponent, "dp-month-calendar", never, { "config": "config"; "displayDate": "displayDate"; "minDate": "minDate"; "maxDate": "maxDate"; "theme": "theme"; }, { "onSelect": "onSelect"; "onNavHeaderBtnClick": "onNavHeaderBtnClick"; "onGoToCurrent": "onGoToCurrent"; "onLeftNav": "onLeftNav"; "onRightNav": "onRightNav"; "onLeftSecondaryNav": "onLeftSecondaryNav"; "onRightSecondaryNav": "onRightSecondaryNav"; }, never, never>;
 }
-
-//# sourceMappingURL=month-calendar.component.d.ts.map

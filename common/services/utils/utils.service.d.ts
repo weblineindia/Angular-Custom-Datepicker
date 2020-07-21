@@ -6,7 +6,6 @@ import { IDate } from '../../models/date.model';
 import { CalendarMode } from '../../types/calendar-mode';
 import { DateValidator } from '../../types/validator.type';
 import { ICalendarInternal } from '../../models/calendar.model';
-import * as ɵngcc0 from '@angular/core';
 export interface DateLimits {
     minDate?: SingleCalendarValue;
     maxDate?: SingleCalendarValue;
@@ -41,7 +40,4 @@ export declare class UtilsService {
     }, format: string, props: string[]): void;
     shouldResetCurrentView<T extends ICalendarInternal>(prevConf: T, currentConf: T): boolean;
     getNativeElement(elem: HTMLElement | string): HTMLElement;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<UtilsService, never>;
 }
-
-//# sourceMappingURL=utils.service.d.ts.map

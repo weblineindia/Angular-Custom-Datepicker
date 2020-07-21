@@ -13,7 +13,6 @@ import { IMonthCalendarConfig } from '../month-calendar/month-calendar-config';
 import { IMonth } from '../month-calendar/month.model';
 import { DateValidator } from '../common/types/validator.type';
 import { INavEvent } from '../common/models/navigation-event.model';
-import * as ɵngcc0 from '@angular/core';
 export declare class DayCalendarComponent implements OnInit, OnChanges, ControlValueAccessor, Validator {
     readonly dayCalendarService: DayCalendarService;
     readonly utilsService: UtilsService;
@@ -84,8 +83,4 @@ export declare class DayCalendarComponent implements OnInit, OnChanges, ControlV
     shouldShowCurrent(): boolean;
     goToCurrent(): void;
     handleConfigChange(config: SimpleChange): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DayCalendarComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<DayCalendarComponent, "dp-day-calendar", never, { "config": "config"; "displayDate": "displayDate"; "minDate": "minDate"; "maxDate": "maxDate"; "theme": "theme"; }, { "onSelect": "onSelect"; "onMonthSelect": "onMonthSelect"; "onNavHeaderBtnClick": "onNavHeaderBtnClick"; "onGoToCurrent": "onGoToCurrent"; "onLeftNav": "onLeftNav"; "onRightNav": "onRightNav"; }, never, never>;
 }
-
-//# sourceMappingURL=day-calendar.component.d.ts.map

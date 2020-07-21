@@ -4,7 +4,6 @@ import { UtilsService } from '../common/services/utils/utils.service';
 import { IDay } from './day.model';
 import { IDayCalendarConfig, IDayCalendarConfigInternal } from './day-calendar-config.model';
 import { IMonthCalendarConfig } from '../month-calendar/month-calendar-config';
-import * as ɵngcc0 from '@angular/core';
 export declare class DayCalendarService {
     private utilsService;
     readonly DEFAULT_CONFIG: IDayCalendarConfig;
@@ -27,8 +26,4 @@ export declare class DayCalendarService {
     getDayBtnText(config: IDayCalendarConfigInternal, day: Moment): string;
     getDayBtnCssClass(config: IDayCalendarConfigInternal, day: Moment): string;
     private removeNearMonthWeeks;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DayCalendarService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<DayCalendarService>;
 }
-
-//# sourceMappingURL=day-calendar.service.d.ts.map

@@ -11,7 +11,6 @@ import { DayTimeCalendarService } from './day-time-calendar.service';
 import { DateValidator } from '../common/types/validator.type';
 import { DayCalendarComponent } from '../day-calendar/day-calendar.component';
 import { INavEvent } from '../common/models/navigation-event.model';
-import * as ɵngcc0 from '@angular/core';
 export declare class DayTimeCalendarComponent implements OnInit, OnChanges, ControlValueAccessor, Validator {
     dayTimeCalendarService: DayTimeCalendarService;
     utilsService: UtilsService;
@@ -54,8 +53,4 @@ export declare class DayTimeCalendarComponent implements OnInit, OnChanges, Cont
     moveCalendarTo(to: SingleCalendarValue): void;
     onLeftNavClick(change: INavEvent): void;
     onRightNavClick(change: INavEvent): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DayTimeCalendarComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<DayTimeCalendarComponent, "dp-day-time-calendar", never, { "config": "config"; "displayDate": "displayDate"; "minDate": "minDate"; "maxDate": "maxDate"; "theme": "theme"; }, { "onChange": "onChange"; "onGoToCurrent": "onGoToCurrent"; "onLeftNav": "onLeftNav"; "onRightNav": "onRightNav"; }, never, never>;
 }
-
-//# sourceMappingURL=day-time-calendar.component.d.ts.map

@@ -21,7 +21,6 @@ import { DayTimeCalendarComponent } from '../day-time-calendar/day-time-calendar
 import { INavEvent } from '../common/models/navigation-event.model';
 import { SelectEvent } from '../common/types/selection-event.enum';
 import { ISelectionEvent } from '../common/types/selection-event.model';
-import * as ɵngcc0 from '@angular/core';
 export declare class DatePickerComponent implements OnChanges, OnInit, AfterViewInit, ControlValueAccessor, Validator, OnDestroy {
     private readonly dayPickerService;
     private readonly domHelper;
@@ -115,8 +114,4 @@ export declare class DatePickerComponent implements OnChanges, OnInit, AfterView
     startGlobalListeners(): void;
     stopGlobalListeners(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DatePickerComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<DatePickerComponent, "dp-date-picker", never, { "mode": "mode"; "placeholder": "placeholder"; "disabled": "disabled"; "config": "config"; "displayDate": "displayDate"; "theme": "theme"; "minDate": "minDate"; "maxDate": "maxDate"; "minTime": "minTime"; "maxTime": "maxTime"; }, { "open": "open"; "close": "close"; "onChange": "onChange"; "onGoToCurrent": "onGoToCurrent"; "onLeftNav": "onLeftNav"; "onRightNav": "onRightNav"; "onSelect": "onSelect"; }, never, never>;
 }
-
-//# sourceMappingURL=date-picker.component.d.ts.map

@@ -9,7 +9,6 @@ import { CalendarValue } from '../common/types/calendar-value';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { IDate } from '../common/models/date.model';
 import { DateValidator } from '../common/types/validator.type';
-import * as ɵngcc0 from '@angular/core';
 export declare class TimeSelectComponent implements OnInit, OnChanges, ControlValueAccessor, Validator {
     timeSelectService: TimeSelectService;
     utilsService: UtilsService;
@@ -61,8 +60,4 @@ export declare class TimeSelectComponent implements OnInit, OnChanges, ControlVa
     emitChange(): void;
     calculateTimeParts(time: Moment): void;
     private handleConfigChange;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<TimeSelectComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<TimeSelectComponent, "dp-time-select", never, { "config": "config"; "displayDate": "displayDate"; "minDate": "minDate"; "maxDate": "maxDate"; "minTime": "minTime"; "maxTime": "maxTime"; "theme": "theme"; }, { "onChange": "onChange"; }, never, never>;
 }
-
-//# sourceMappingURL=time-select.component.d.ts.map
