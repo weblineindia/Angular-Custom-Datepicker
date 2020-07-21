@@ -1,0 +1,78 @@
+{
+  "_from": "ng2-date-picker",
+  "_id": "ng2-date-picker@9.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-1O1sA3f/5BYIAzWgqBmOoR5VrLpwDQmG8Udtu6bZbtfU+c/K6DDngDdsPMZbI9lrT2P/zJp331n2+CI6OI6y3g==",
+  "_location": "/ng2-date-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ng2-date-picker",
+    "name": "ng2-date-picker",
+    "escapedName": "ng2-date-picker",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng2-date-picker/-/ng2-date-picker-9.0.0.tgz",
+  "_shasum": "0b2113b2817f236825a4531d5f65eb68a11fe548",
+  "_spec": "ng2-date-picker",
+  "_where": "/media/javauser/914fa200-2352-479a-be3f-039edc4d1f6a/home/javauser/angular projects/my-new-app",
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true
+  },
+  "author": "weblineindia",
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "^2.24.0",
+    "tslib": "^1.10.0"
+  },
+  "deprecated": false,
+  "description": "Date Picker component built in AngularJS to select date and time. Supports Angular 9 version.",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/ng2-date-picker.js",
+  "es2015": "fesm2015/ng2-date-picker.js",
+  "esm2015": "esm2015/ng2-date-picker.js",
+  "esm5": "esm5/ng2-date-picker.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/ng2-date-picker.js",
+  "fesm2015": "fesm2015/ng2-date-picker.js",
+  "fesm5": "fesm5/ng2-date-picker.js",
+  "homepage": "https://www.weblineindia.com/software-development-resources.html",
+  "keywords": [
+    "angular-datetime",
+    "angular-datepicker",
+    "angularjs-date-picker",
+    "ng2-datepicker",
+    "ng-datepicker",
+    "angular-timepicker",
+    "angular-picker",
+    "angular-datepicker-component"
+  ],
+  "license": "MIT",
+  "main": "bundles/ng2-date-picker.umd.js",
+  "metadata": "ng2-date-picker.metadata.json",
+  "module": "fesm5/ng2-date-picker.js",
+  "name": "angular-weblineindia-date-picker",
+  "peerDependencies": {},
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weblineindia/AngularJS-Custom-Datepicker"
+  },
+  "sideEffects": false,
+  "typings": "ng2-date-picker.d.ts",
+  "version": "1.0.0",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.0.2",
+    "fesm2015": "10.0.2",
+    "typings": "10.0.2"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

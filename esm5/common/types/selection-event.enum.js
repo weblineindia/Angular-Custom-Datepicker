@@ -1,0 +1,6 @@
+export var SelectEvent;
+(function (SelectEvent) {
+    SelectEvent["INPUT"] = "input";
+    SelectEvent["SELECTION"] = "selection";
+})(SelectEvent || (SelectEvent = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2VsZWN0aW9uLWV2ZW50LmVudW0uanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZzItZGF0ZS1waWNrZXIvIiwic291cmNlcyI6WyJjb21tb24vdHlwZXMvc2VsZWN0aW9uLWV2ZW50LmVudW0udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxDQUFOLElBQVksV0FHWDtBQUhELFdBQVksV0FBVztJQUNyQiw4QkFBZSxDQUFBO0lBQ2Ysc0NBQXVCLENBQUE7QUFDekIsQ0FBQyxFQUhXLFdBQVcsS0FBWCxXQUFXLFFBR3RCIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGVudW0gU2VsZWN0RXZlbnQge1xuICBJTlBVVCA9ICdpbnB1dCcsXG4gIFNFTEVDVElPTiA9ICdzZWxlY3Rpb24nXG59XG4iXX0=
